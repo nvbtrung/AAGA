@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Node {
@@ -7,8 +8,8 @@ public class Node {
 	
 	public Node(String label) {
 		this.label = label;
-		this.parents = null;
-		this.childs = null;
+		this.parents = new ArrayList<Node>();
+		this.childs = new ArrayList<Node>();
 	}
 	
 	public void addChild(Node child) {
