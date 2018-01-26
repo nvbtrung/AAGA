@@ -144,5 +144,4 @@ public class ex4 {
 		*************************/
 		System.out.println(reconnaissance(sample1));
 	}
-
 }
